@@ -21,11 +21,11 @@ const App = () => {
       <div className='container'>
         <Title subTitle='Our PROGRAM' title='What We Offer'/>
         <Programs/>
+        <Testimonals/>
         <About setPlayState={setPlayState}/>
         <Title subTitle='Gallery' title='Campus Photos'/>
         <Campus/>
-        <Title subTitle='TESTIMONIALS' title='Student Feedback '/>
-        <Testimonals/>
+        <Title subTitle='feedback' title='We appreciate your Feedback '/>
         <Title subTitle='CONTACT US' title='Get in Touch'/>
         <Contact/>
         <Footer/>
